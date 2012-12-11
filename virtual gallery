@@ -1,0 +1,33 @@
+//connor anstey 11/12/1012
+
+/*
+this will be out first text label
+
+
+*/
+
+function OnGUI () 
+{   
+	//our first line of code will be saying connor anstey 
+	GUI.Label (Rect (10, 10, 100, 20), "Controls");
+	
+	//this is navigation controls forward
+	GUI.Label (Rect (10, 30, 100, 100), "W -FORWARD");
+	
+	//this is navigation controls left
+	GUI.Label (Rect (10, 50, 100, 100), "A - LEFT");
+	
+	//this is navigation control back
+	GUI.Label (Rect (10, 70, 100, 100), "S - BACK");
+	
+	//this is navigation control right
+	GUI.Label (Rect (10, 90, 100, 100), "D - RIGHT");
+	
+	//this is navigation control right
+	GUI.Label (Rect (10, 110, 100, 100), "SPACE - JUMP");
+	
+	//this is navigation controls
+	GUI.Label (Rect (10, 130, 180, 100), "MOUSE - LOOK AROUND");
+}
+
+
